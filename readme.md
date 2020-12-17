@@ -15,6 +15,7 @@ Below are the libraries that will be used by this tool
 - python
 - selenium
 - pillow
+- gekodriver
 
 ##### How to use:
 
@@ -24,4 +25,5 @@ Below are the libraries that will be used by this tool
 4. Run command `pipenv install` to download all dependencies.
 5. Enter pipenv shell using `pipenv shell`.
 6. Add required details in properties file.
-7. Run `python app.py`.
+7. Download gekodriver from https://github.com/mozilla/geckodriver/releases and place it inside project folder
+8. Run `python app.py`.
